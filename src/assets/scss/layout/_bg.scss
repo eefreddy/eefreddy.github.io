@@ -54,11 +54,13 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/bg.jpg');
-    background-position: center;
+    background-image: url('../../images/bg2.jpg');
+    background-position: contain;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    -webkit-transform: rotate($bg-rotation) scaleX(-1);
+    transform: rotate($bg-rotation) scaleX(-1);
   }
 
   .body.is-article-visible & {
