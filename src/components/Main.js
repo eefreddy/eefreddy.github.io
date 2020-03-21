@@ -5,6 +5,23 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
+  constructor(props){
+    super(props);
+    this.escFunction = this.escFunction.bind(this);
+  }
+  escFunction(event){
+    if(event.keyCode === 27) {
+      console.log('You pressed the escape key!');
+      // debugger;
+      // this.props.onCloseArticle = this.props.onCloseArticle.bind(this);
+      this.props.onCloseArticle()
+    }
+  }
+
+  componentDidMount () {
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+
   render() {
     let close = (
       <div
