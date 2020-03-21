@@ -55,12 +55,10 @@
       )
     );
     background-image: url('../../images/bg2.jpg');
-    background-position: contain;
+    background-position: -50px -150px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-    -webkit-transform: rotate($bg-rotation) scaleX(-1);
-    transform: rotate($bg-rotation) scaleX(-1);
   }
 
   .body.is-article-visible & {
