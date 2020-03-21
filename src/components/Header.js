@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import pic01 from '../images/pic01.jpg'
+import wave from '../images/memojiwave.png'
+
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <img src={wave} style={{maxWidth: 90, maxHeight: 100, position: 'relative', top: "-24px", right: '4px'}}/>
     </div>
     <div className="content">
       <div className="inner">
