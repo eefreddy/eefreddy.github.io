@@ -10,7 +10,7 @@ const Header = props => (
       <img src={wave} style={{maxWidth: 90, maxHeight: 100, position: 'relative', top: "-24px", right: '4px'}}/>
     </div>
     <div className="content">
-      <div className="inner">
+      <div className="inner backgroundBlur">
         <h1>Emmanuel Freddy</h1>
         <p>
           A beach bum who likes to code
@@ -18,7 +18,7 @@ const Header = props => (
       </div>
     </div>
     <nav>
-      <ul>
+      <ul className={'backgroundBlur'}>
         <li>
           <button
             onClick={() => {
