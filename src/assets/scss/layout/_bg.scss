@@ -59,13 +59,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-    transform: rotate(2deg) scale(1.1);;
+    transform: rotate(2deg) scale(1.1);
   }
 
   .body.is-article-visible & {
     &:after {
       @include vendor('transform', 'scale(1.0825)');
       // @include vendor('filter', 'blur(0.2rem)');
+      transform: rotate(2deg) scale(1.1);
     }
   }
 
