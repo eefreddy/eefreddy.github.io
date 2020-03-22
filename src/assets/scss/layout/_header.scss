@@ -76,6 +76,14 @@
     }
   }
 
+  .heroImage {
+    max-width: 90px;
+    max-height: 100px;
+    position: inherit;
+    top: -24px;
+    right: 4px;
+  }
+
   .backgroundBlur {
     background-color: rgba(111, 101, 87, 0.65);
     backdrop-filter: blur(2.5px);
@@ -231,6 +239,10 @@
         &:before {
           font-size: 1.75rem;
         }
+      }
+
+      .heroImage {
+        max-width: 70px;
       }
     }
 

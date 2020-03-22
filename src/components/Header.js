@@ -7,7 +7,7 @@ import wave from '../images/memojiwave.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo backgroundBlur">
-      <img src={wave} style={{maxWidth: 90, maxHeight: 100, position: 'relative', top: "-24px", right: '4px'}}/>
+      <img src={wave} className="heroImage"/>
     </div>
     <div className="content">
       <div className="inner backgroundBlur">
