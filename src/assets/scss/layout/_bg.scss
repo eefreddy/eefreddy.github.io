@@ -55,10 +55,11 @@
       )
     );
     background-image: url('../../images/bg3.jpg');
-    background-position: auto;
+    background-position: initial;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    transform: rotate(2deg) scale(1.1);;
   }
 
   .body.is-article-visible & {
