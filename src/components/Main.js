@@ -26,10 +26,8 @@ class Main extends React.Component {
     let close = (
       <div
         className="close"
-        onClick={() => {
-          this.props.onCloseArticle()
-        }}
-      ></div>
+        onClick={() => {this.props.onCloseArticle()}}
+      />
     )
 
     return (
