@@ -68,6 +68,7 @@
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
+    background-color: rgba(206, 244, 248, 0.4);
 
     .icon {
       &:before {
