@@ -20,19 +20,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('work')
             }}
           >
-            Work
+            My Work
           </button>
         </li>
         <li>
@@ -42,6 +33,15 @@ const Header = props => (
             }}
           >
             About
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('timeline')
+            }}
+          >
+            Timeline
           </button>
         </li>
       </ul>
