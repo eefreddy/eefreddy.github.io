@@ -36,13 +36,13 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('timeline')
-            }}
-          >
-            Timeline
+          <a href={'/page-2'}>
+          <button>
+
+              Timeline
+
           </button>
+          </a>
         </li>
       </ul>
     </nav>
