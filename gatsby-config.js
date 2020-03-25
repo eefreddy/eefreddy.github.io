@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Emmanuel Freddy',
+    title: 'Emmanuel Freddy | Software Engineer - Growth',
     author: 'Emmanuel Freddy',
-    description: 'A portfolio to improve my front end skills',
+    description: "Hi I'm Freddy, a software engineer in Toronto.",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
