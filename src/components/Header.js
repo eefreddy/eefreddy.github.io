@@ -36,11 +36,9 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <a href={'/page-2'}>
+          <a href={'/page-2'} style={{ borderBottom: 'none' }}>
           <button>
-
               Timeline
-
           </button>
           </a>
         </li>
