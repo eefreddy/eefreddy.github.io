@@ -273,6 +273,11 @@
         max-width: 100%;
 
         li {
+
+          button {
+            display: inline-block;
+          }
+
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
 
