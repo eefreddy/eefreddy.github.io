@@ -10,7 +10,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner backgroundBlur">
-        <h1>Emmanuel Freddy</h1>
+        <h1 style={{paddingLeft: '0.5rem'}}>Emmanuel Freddy</h1>
         <p style={{marginBottom: '0'}}>Software Engineer - Growth</p>
         <p>Toronto, Canada</p>
       </div>
