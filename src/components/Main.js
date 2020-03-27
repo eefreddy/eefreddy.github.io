@@ -43,7 +43,10 @@ class Main extends React.Component {
           <div className="grid-container">
             <div className="grid-item">
               <span className="image fit fit-zero">
-                <img src={toronto} alt="" />
+                <div style={{position: 'relative', textAlign: 'center', color: 'black'}}>
+                  <img src={toronto} alt="" />
+                  <p style={{position: 'absolute', top: '8px', left: '16px'}}>Mar 2019 - Present</p>
+                </div>
                 <h5>Software Engineer - Growth Toronto, Canada</h5>
               </span>
             </div>
@@ -62,7 +65,10 @@ class Main extends React.Component {
             </div>
             <div className="grid-item">
               <span className="image fit fit-zero">
-                <img src={edmonton} alt="" />
+                <div style={{position: 'relative', textAlign: 'center', color: 'black'}}>
+                  <img src={edmonton} alt="" />
+                  <p style={{position: 'absolute', top: '8px', left: '16px'}}>Oct 2017 - Mar 2019</p>
+                </div>
                 <h5>Software Engineer | Edmonton, Canada</h5>
               </span>
             </div>
