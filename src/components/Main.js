@@ -1,7 +1,12 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import toronto from '../images/toronto.jpg'
-import edmonton from '../images/edmonton.jpg'
+import PropTypes from 'prop-types';
+import React from 'react';
+import cozumel from '../images/cozumel2.jpg';
+import playa from '../images/playa.jpg';
+import valladolid from '../images/valladolid.jpg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import edmonton from '../images/edmonton.jpg';
+import toronto from '../images/toronto.jpg';
+import { Carousel } from 'react-responsive-carousel';
 
 class Main extends React.Component {
   constructor(props){
@@ -84,11 +89,6 @@ class Main extends React.Component {
               </p>
             </div>
           </div>
-
-          <p>
-          </p>
-          <p>
-          </p>
           {close}
         </article>
 
@@ -100,11 +100,44 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={toronto} alt="" />
-          </span>
-          <p>
-          </p>
+          <div className="grid-container" style={{gridTemplateColumns: 'none'}}>
+            <div className="grid-item">
+              <div style={{position: 'relative', textAlign: 'center', color: 'white'}}>
+                <span className="image fit fit-zero">
+                  <img src={cozumel} style={{maxWidth:'50%', maxHeight:'50%', borderRadius:'5%'}} alt="me" />
+                </span>
+              </div>
+            </div>
+            <div className="grid-item article-text" style={{paddingTop: '1rem'}}>
+              <p>
+                Hi, I'm a self taught software engineer from Chennai (<span style={{fontSize:'1.3rem', verticalAlign:'top'}}>🇮🇳</span>).
+                I grew up in Ipswich (<span style={{fontSize:'1.3rem', verticalAlign:'top'}}>🇬🇧</span>) and got my undergraduate degree in
+                Electrical Engineering in Edmonton (<span style={{fontSize:'1.3rem', verticalAlign:'top'}}>🇨🇦</span>).
+              </p>
+              <p>
+                I'm always up for meeting new people, talking about new ideas, opportunities, and drinking some tea! ☕️
+              </p>
+
+              <a href="https://www.linkedin.com/in/emmanuel-freddy/" style={{borderBottom:'none'}}>
+                <button>
+                  <span className="icon fa-linkedin-square" style={{marginRight: '0.3rem'}}/>
+                  Say Hello 👋
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/*<Carousel showThumbs={false} emulateTouch={true} showStatus={false}>*/}
+          {/*  */}
+          {/*  <div>*/}
+          {/*    <img src={playa} />*/}
+          {/*    <p style={{position: 'absolute', bottom: '8px', right: '16px'}}>Mar 2019 - Present</p>*/}
+          {/*  </div>*/}
+          {/*  <div>*/}
+          {/*    <img src={valladolid} />*/}
+          {/*    <p style={{position: 'absolute', bottom: '8px', right: '16px'}}>Mar 2019 - Present</p>*/}
+          {/*  </div>*/}
+          {/*</Carousel>*/}
           {close}
         </article>
       </div>

@@ -18,6 +18,20 @@
 		z-index: 3;
 		display: none;
 
+		.carousel {
+			.slide {
+				background-color: transparent;
+			}
+		}
+
+		.carousel-slider {
+			.control-arrow {
+
+			}
+		}
+
+
+
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
