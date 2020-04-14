@@ -35,13 +35,13 @@ const Header = props => (
             About
           </button>
         </li>
-        <li>
-          <a href={'/page-2'} style={{ borderBottom: 'none' }}>
-          <button>
-              Timeline
-          </button>
-          </a>
-        </li>
+        {/*<li>*/}
+        {/*  <a href={'/page-2'} style={{ borderBottom: 'none' }}>*/}
+        {/*  <button>*/}
+        {/*      Timeline*/}
+        {/*  </button>*/}
+        {/*  </a>*/}
+        {/*</li>*/}
       </ul>
     </nav>
   </header>
