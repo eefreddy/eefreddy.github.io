@@ -104,7 +104,7 @@ class Main extends React.Component {
             <div className="grid-item">
               <div style={{position: 'relative', textAlign: 'center', color: 'white'}}>
                 <span className="image fit fit-zero">
-                  <img src={cozumel} style={{maxWidth:'50%', maxHeight:'50%', borderRadius:'5%'}} alt="me" />
+                  <img src={cozumel} style={{maxWidth:'50%', maxHeight:'50%', borderRadius:'5%', margin:'auto'}} alt="me" />
                 </span>
               </div>
             </div>
