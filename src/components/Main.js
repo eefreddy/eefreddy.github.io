@@ -53,7 +53,7 @@ class Main extends React.Component {
                   <img src={toronto} alt="" />
                   <p style={{position: 'absolute', top: '8px', left: '16px'}}>Mar 2019 - Present</p>
                 </div>
-                <h5>Software Engineer - Growth Toronto, Canada</h5>
+                <h5 className='paddingForDesktop'>Software Engineer - Growth Toronto, Canada</h5>
               </span>
             </div>
             <div className="grid-item article-text article-text-right">
