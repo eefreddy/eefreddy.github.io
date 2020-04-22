@@ -18,6 +18,12 @@ module.exports = {
         icon: 'src/images/helmet.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-fullstory`,
+      options: {
+        fs_org: 'TN238',
+      },
+    },
     'gatsby-plugin-sass',
   ],
 }

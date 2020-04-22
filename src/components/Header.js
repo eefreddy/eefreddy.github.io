@@ -35,12 +35,12 @@ const Header = props => (
             About
           </button>
         </li>
-        {/*<li>*/}
-        {/*  <a href={'/page-2'} style={{ borderBottom: 'none' }}>*/}
-        {/*  <button>*/}
+        {/*<li style={{marginTop:0}}>*/}
+        {/*  <AniLink fade to="timeline" style={{ borderBottom: 'none' }}>*/}
+        {/*    <button>*/}
         {/*      Timeline*/}
-        {/*  </button>*/}
-        {/*  </a>*/}
+        {/*    </button>*/}
+        {/*  </AniLink>*/}
         {/*</li>*/}
       </ul>
     </nav>

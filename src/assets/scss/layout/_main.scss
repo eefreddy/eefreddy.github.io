@@ -30,8 +30,6 @@
 			}
 		}
 
-
-
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
@@ -131,6 +129,7 @@
 		}
 
 		@include breakpoint(small) {
+			justify-content: normal;
 			article {
 				@include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
 				.close {

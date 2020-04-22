@@ -7,6 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import edmonton from '../images/edmonton.jpg';
 import toronto from '../images/toronto.jpg';
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "gatsby";
 
 class Main extends React.Component {
   constructor(props){
@@ -97,7 +98,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none'}}
         >
           <h2 className="major">About</h2>
           <div className="grid-container" style={{gridTemplateColumns: 'none'}}>
@@ -118,7 +119,7 @@ class Main extends React.Component {
                 I'm always up for meeting new people, talking about new ideas, opportunities, and drinking some tea! ☕️
               </p>
 
-              <a href="https://www.linkedin.com/in/emmanuel-freddy/" style={{borderBottom:'none'}}>
+              <a href="https://www.linkedin.com/in/efreddy/" style={{borderBottom:'none'}}>
                 <button>
                   <span className="icon fa-linkedin-square" style={{marginRight: '0.3rem'}}/>
                   Say Hello 👋
